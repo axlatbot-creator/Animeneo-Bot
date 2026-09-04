@@ -562,4 +562,4 @@ def cmd_start(message):
     # Deep-link orqali kirish: https://t.me/<bot>?start=ANIME_CODE
     # Telegram bu holda /start buyrug'ini "/start ANIME_CODE" ko'rinishida yuboradi.
     parts = message.text.split(maxsplit=1)
-    payload = parts[1].strip() if len(parts) > 1 el
+    payload = parts[1].strip() if len(parts) > 1 else None
