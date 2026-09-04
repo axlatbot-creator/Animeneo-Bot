@@ -42,7 +42,7 @@ def _load_token():
     return None
 
 
-BOT_TOKEN = _load_token()
+BOT_TOKEN = _load_token(8934406318:AAH7kRGmrWblmy2p0kyf1w79Z5GpzHJuZpU)
 MAIN_ADMIN_ID = 7991544389          # Asosiy admin — o'chirib bo'lmaydi (spetsifikatsiyada berilgan)
 # DB_PATH environment orqali ham berilishi mumkin — Render'da doimiy disk (Persistent Disk)
 # ulangan bo'lsa, masalan DB_PATH=/data/neirani_bot.db qilib belgilang, aks holda
